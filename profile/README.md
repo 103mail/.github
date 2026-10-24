@@ -16,7 +16,7 @@ exchange mail with each other without falling back to SMTP.
 | --- | --- |
 | [webmail-federation](https://github.com/103mail/webmail-federation) | The RFC, design and plan for federating Webmail Domains |
 | [webmail-server](https://github.com/103mail/webmail-server) | Go backend serving the JSON API and the federation endpoints |
-| [webmail-client](https://github.com/103mail/webmail-client) | React client, shared by every Domain |
+| [webmail-client](https://github.com/103mail/webmail-client) | React client that every Domain runs for its users |
 | [webmail-e2e](https://github.com/103mail/webmail-e2e) | End-to-end stories that run against several federated Domains |
 | [webmail-deploy](https://github.com/103mail/webmail-deploy) | Local stack with four Domains federating on one machine |
 
