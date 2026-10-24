@@ -7,9 +7,8 @@ regular email, but your messages don't travel across the globe. They live in
 one European data center, and only a notification with a secure link leaves
 the server. That is how we do privacy by design.
 
-We are building a federated version, so independently run domains can share
-one client and still exchange mail with each other, without falling back to
-SMTP.
+We are building a federated version, so independently run domains can
+exchange mail with each other without falling back to SMTP.
 
 ## Repositories
 
