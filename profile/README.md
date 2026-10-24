@@ -22,4 +22,10 @@ SMTP.
 | [webmail-deploy](https://github.com/103mail/webmail-deploy) | Local stack with four Domains federating on one machine |
 
 To try it locally, clone the repositories side by side and run
-`docker compose up -d --build` in `webmail-deploy`.
+`docker compose up -d --build` in `webmail-deploy`. Then open each Domain in
+your browser:
+
+- http://localhost:8001/ (103mail.com)
+- http://localhost:8002/ (example.com)
+- http://localhost:8003/ (mail.acme.test)
+- http://localhost:8004/ (acme.test)
